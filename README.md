@@ -42,3 +42,13 @@ Example 4:
     n == satisfaction.length
     1 <= n <= 500
     -10^3 <= satisfaction[i] <= 10^3
+
+
+## Solution Strategy
+
+    -If each satisfaction level is negative, return 0
+    -If each satisfaction level is positive, return the sum of the total like time coefficient
+    -Otherwise
+         -Reverse sort the _satisfaction_ list
+         -Take the satisfaction levels that give more than zero sum and store it another list
+         -Reverse sort the list and take the sum of the total like time coefficient
