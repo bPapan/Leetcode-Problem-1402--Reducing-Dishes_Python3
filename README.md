@@ -3,9 +3,9 @@ A Simple Python3 solution to the Problem no. 1402 entitled "Reducing Dishes" in 
 
 ## Description
 
-A chef has collected data on the satisfaction level of his n dishes. Chef can cook any dish in 1 unit of time.
+A chef has collected data on the _satisfaction_ level of his _n_ dishes. Chef can cook any dish in 1 unit of time.
 
-Like-time coefficient of a dish is defined as the time taken to cook that dish including previous dishes multiplied by its satisfaction level  i.e.  _time[i]_*satisfaction[i]
+_Like-time coefficient_ of a dish is defined as the time taken to cook that dish including previous dishes multiplied by its satisfaction level  i.e.  time[i]*satisfaction[i]
 
 Return the maximum sum of Like-time coefficient that the chef can obtain after dishes preparation.
 
